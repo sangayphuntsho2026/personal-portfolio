@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b19">
+  <title>Sangay Phuntsho | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ANIMATED BACKGROUND -->
+  <canvas id="particles"></canvas>
+  <div id="enter-screen" class="enter-screen">
+    <div class="enter-box">
+      <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+      <h2>Sangay Phuntsho</h2>
+      <button id="enter-btn" class="btn">Enter with music 🎵</button>
+      <button id="enter-skip" class="enter-skip">Enter without music</button>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">Sangay<span>Phuntsho</span></a>
+
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle theme">☀️</button>
+      <button id="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+      <div class="hero-left">
+        <div class="profile-frame">
+          <div class="profile-ring"></div>
+          <img src="profile.jpg" alt="Sangay Phuntsho" class="profile-img">
+        </div>
+
+        <p class="availability">
+          <span class="online-dot"></span>
+          STUDENT & TECHNOLOGY ENTHUSIAST
+        </p>
+
+        <div class="social-links">
+          <a href="https://github.com/sangayphuntsho2026" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="mailto:17681256s@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY DIGITAL WORLD</p>
+
+        <h1>
+          <b class="type-line" id="type-hi">Hi, I'm</b>
+          <span class="type-line" id="type-name">Sangay Phuntsho</span>
+        </h1>
+
+        <h2 class="type-line" id="type-role">pursuing Computer System and Networking</h2>
+
+        <p class="hero-description">
+          I am a student at Jigme Namgyel Engineering College
+          who loves developing websites.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">Explore My Work ↗</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+
+        <div class="hero-footer">
+          <span>WEB DEVELOPMENT</span>
+          <span>NETWORKING</span>
+          <span>PROGRAMMING</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW</p>
+        <h2 class="title">About <span>Me</span></h2>
+      </div>
+
+      <div class="cyber-about-card">
+
+        <!-- Animated Scanlines Background -->
+        <div class="scanlines"></div>
+
+        <div class="cyber-icon-wrapper">
+          <div class="cyber-icon">👁️</div>
+        </div>
+
+        <div class="cyber-content">
+          <h3>Intro;</h3>
+
+          <div class="cyber-text-block">
+            <p>
+              <span class="terminal-prompt">></span> I am an Information Technology student learning to build modern,
+              responsive websites.
+            </p>
+          </div>
+
+          <div class="cyber-stats">
+            <div class="stat-item">
+              <strong>Interests:</strong>
+              <span>Python, Web Development, Networking.</span>
+            </div>
+
+            <div class="stat-item">
+              <strong>Career Goals:</strong>
+              <span>Become a software developer and work for a technology company.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Decorative Corners -->
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I CAN DO</p>
+        <h2 class="title">My <span>Skills</span></h2>
+        <p>Technologies and abilities I am learning.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+          <h3>HTML</h3>
+          <span>Web Structure</span>
+          <p>HTML is like the skeleton of a website because it provides the basic structure and content.</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <h3>CSS</h3>
+          <span>Web Styling</span>
+          <p>HTML creates the structure of a website, while CSS makes it beautiful and attractive.</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript">
+          <h3>JavaScript</h3>
+          <span>Web Interaction</span>
+          <p>HTML is the skeleton, CSS is the design, and JavaScript is the action of a website.</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <h3>Python</h3>
+          <span>Programming</span>
+          <p>Python is a programming language that helps us give instructions to computers to perform different tasks.
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+          <h3>Git & GitHub</h3>
+          <span>Version Control</span>
+          <p>Git manages code changes, and GitHub helps store and share code online.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="team-icon">🤝</div>
+          <h3>Teamwork</h3>
+          <span>Collaboration</span>
+          <p>Teamwork means working together, sharing ideas and responsibilities to achieve a common goal.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">MY RECENT WORK</p>
+        <h2 class="title">Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="cards">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number"></span>
+            <span class="project-icon"></span>
+          </div>
+
+          <h3>Calculator App</h3>
+
+          <p>
+            A calculator that can add, subtract, multiply and divide
+            numbers, with clear and delete buttons.
+          </p>
+
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+
+          <a href="https://github.com/sangayphuntsho2026/calculator" target="_blank" rel="noopener">View Repository
+            ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number"></span>
+            <span class="project-icon"></span>
+          </div>
+
+          <h3>To-do List</h3>
+
+          <p>
+            A task manager where you can add tasks, mark them as done
+            and delete them. Tasks are saved in the browser.
+          </p>
+
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+
+          <a href="https://github.com/sangayphuntsho2026/todo-list" target="_blank" rel="noopener">View Repository ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number"></span>
+            <span class="project-icon"></span>
+          </div>
+
+          <h3>Quiz App</h3>
+
+          <p>
+            A multiple-choice quiz on web development and networking
+            with a score, progress bar and saved best score.
+          </p>
+
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+
+          <a href="https://github.com/sangayphuntsho2026/quiz-app" target="_blank" rel="noopener">View Repository ↗</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2 class="title">Education & <span>Achievements</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Education Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel">
+            <span class="timeline-date">UNIVERSITY/YEARS</span>
+            <h3>Jigme Namgyel Engineering College joined on 2025 after-mid</h3>
+            <p class="timeline-institution">Final year Diploma in Computer System and Networking and graduate on 2027
+              mid</p>
+
+            <button class="cert-view-btn" onclick="openImageLightbox('university-image.jpg')">
+              View <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Education Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel">
+            <span class="timeline-date">SCHOOL/YEARS</span>
+            <h3>Desi High School, Completed in 2024</h3>
+            <p class="timeline-institution">background: weight arts</p>
+
+            <button class="cert-view-btn" onclick="openImageLightbox('school-image.webp')">
+              View <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Achievements Item -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-panel cert-card">
+            <span class="timeline-date">CERTIFICATIONS</span>
+            <h3>Certificates Awards</h3>
+            <p class="timeline-institution">Secured certificates in Coursera:</p>
+
+            <div class="cert-grid">
+              <div class="cert-item">
+                <span>Linux Administration</span>
+                <a href="cert-linux.pdf" target="_blank" class="cert-view-btn">View ↗</a>
+              </div>
+              <div class="cert-item">
+                <span>Design and Web Technology</span>
+                <a href="cert-web.pdf" target="_blank" class="cert-view-btn">View ↗</a>
+              </div>
+              <div class="cert-item">
+                <span>Data Analysis and Visualization</span>
+                <a href="cert-data.pdf" target="_blank" class="cert-view-btn">View ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+        <!-- CONTACT -->
+    <section id="contact" class="section">
+
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="title">Contact <span>Me</span></h2>
+      </div>
+
+      <div class="cyber-uplink-wrapper reveal">
+        
+        <!-- Animated Background Grid & Scanner -->
+        <div class="uplink-grid"></div>
+        <div class="uplink-scanner"></div>
+
+        <!-- Left Side: Info Terminals -->
+        <div class="uplink-left">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">COMMS_LINK.exe</span>
+          </div>
+
+          <h3>Initialize Connection</h3>
+          <p>Ready to collaborate, build, or just chat? Send a transmission through the secure channel below.</p>
+
+          <div class="data-node">
+            <div class="node-icon">✉</div>
+            <div class="node-text">
+              <span>Direct Line</span>
+              <a href="mailto:17681256s@gmail.com">17681256s@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="data-node">
+            <div class="node-icon">⌘</div>
+            <div class="node-text">
+              <span>Repository</span>
+              <a href="https://github.com/sangayphuntsho2026" target="_blank" rel="noopener">github/sangayphuntsho</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Holographic Form -->
+        <div class="uplink-right">
+          <form id="contact-form">
+            
+            <div class="holo-input-group">
+              <input type="text" id="name" required placeholder=" ">
+              <label for="name">Identify Yourself</label>
+              <div class="scan-line"></div>
+            </div>
+
+            <div class="holo-input-group">
+              <input type="email" id="email" required placeholder=" ">
+              <label for="email">Email Address</label>
+              <div class="scan-line"></div>
+            </div>
+
+            <div class="holo-input-group">
+              <textarea id="message" rows="4" required placeholder=" "></textarea>
+              <label for="message">Forward Data</label>
+              <div class="scan-line"></div>
+            </div>
+
+            <button type="submit" class="holo-btn">
+              <span class="btn-text">MASSAGE SEND</span>
+              <span class="btn-glitch">MASSAGE SEND</span>
+            </button>
+            
+            <p id="form-status"></p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Sangay Phuntsho. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <!-- SKILL POPUP -->
+  <div id="skill-full" class="skill-full" aria-hidden="true">
+    <button class="skill-full-close" id="skill-full-close" aria-label="Close">&times;</button>
+    <div id="skill-full-content"></div>
+  </div>
+
+  <!-- MUSIC PLAYER -->
+  <div class="music-player">
+    <span id="music-title" class="music-title"></span>
+    <button id="music-next" class="music-next" aria-label="Next song" title="Next song">⏭</button>
+    <button id="music-btn" class="music-btn" aria-label="Play background music"
+      title="Play background music">🎵</button>
+  </div>
+  <audio id="bg-music" preload="none"></audio>
+
+  <!-- IMAGE LIGHTBOX POPUP -->
+  <div id="image-lightbox" class="lightbox">
+    <button class="lightbox-close" onclick="closeImageLightbox()">&times;</button>
+    <img id="lightbox-img" src="" alt="Image Full View">
+  </div>
+
+  <script src="script.js"></script>
+  <script src="tech-bg.js"></script>
+
+</body>
+
+</html>
